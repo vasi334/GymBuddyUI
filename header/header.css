@@ -1,0 +1,51 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/foto.jpg'); /*fotografia de fundal*/
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+  min-height: 100vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-GymBuddy{
+width: 200px;
+padding-left: 20px;
+margin-top: 5px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav li{
+display: inline-block;
+margin-right: 50px;
+}
+
+nav a {
+  color:white ;
+  text-decoration: none;
+}
+
+.menu{
+  font-size: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease; 
+}
+
+.menu:hover {
+  transform: scale(1.2); 
+}
