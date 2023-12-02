@@ -1,0 +1,107 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: hidden;
+  background-image: url('images/foto.jpg'); /*fotografia de fundal*/
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 60px;
+  min-height: 100vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-GymBuddy{
+width: 200px;
+padding-left: 20px;
+margin-top: 5px;
+}
+
+nav ul{
+  list-style: none;
+  text-align: right;
+  cursor: pointer;
+}
+
+nav li{
+display: inline-block;
+margin-right: 50px;
+}
+
+nav a {
+  color:white ;
+  text-decoration: none;
+}
+
+.menu1{
+  margin-right: 200px;
+}
+
+.menu,
+.menu1 {
+  font-size: 20px;
+  display: inline-block;
+  transition: transform 0.3s ease; /* Adaugă o tranziție de 0.3 secunde pentru scalare */
+}
+
+.menu:hover,
+.menu1:hover {
+  transform: scale(1.2); /* Scalarea textului la hover */
+}
+
+.header-content{
+  margin-top: 230px;
+  margin-left: 70px;
+  font-size: large;
+  color: white;
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.account-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 150px;
+  width: 500px;
+  text-align: center;
+  border-radius: 3px;
+  margin:auto;
+  margin-top: 20px;
+}
+
+.account-text{
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.join-button,
+.login-button{
+  color: white;
+  font-size: 17px;
+  background: linear-gradient(to right,#FF6619 50%, #FFD919);
+  height: 40px;
+  width: 120px;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: transform 0.3s ease; 
+}
+
+.join-button:hover,
+.login-button:hover{
+  transform: scale(1.1); 
+}
+
+
