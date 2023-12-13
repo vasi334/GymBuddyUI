@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chestionar2.css">
+    <title>Pagina cu imagine de fundal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<img src="logo.png" alt="Logo" class="logo">
+<body>
+    <div class="container">
+        <div id="text-container">Your informations</div>
+        <div class="split-button">
+            <button class="left-half" onclick="selectSide('left')">Man</button>
+            <button class="right-half" onclick="selectSide('right')">Women</button>
+        </div>
+        
+            
+            <form>
+                <input type="text" id="email-input" name="Date of birth" placeholder="Date of birth">
+            </form>
+            <form>
+                <input type="text" id="height" name="Height-input" placeholder="Height">
+            </form>
+            <form>
+                <input type="text" id="weight-input" name="Weight" placeholder="Weight">
+            </form>
+            <form>
+                <input type="text" id="city-input" name="City" placeholder="City">
+            </form>
+        
+        
+        <button class="image-button">
+            <img src="next.png" alt="Imaginea" class="button-image">
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

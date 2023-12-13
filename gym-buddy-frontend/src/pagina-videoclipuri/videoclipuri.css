@@ -1,0 +1,148 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 60px;
+    min-height: 100vh;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+  width: 200px;
+  padding-left: 20px;
+  margin-top: 5px;
+  }
+  
+  nav ul{
+    list-style: none;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  nav li{
+  display: inline-block;
+  margin-right: 50px;
+  }
+  
+  nav a {
+    color:white ;
+    text-decoration: none;
+  }
+  
+  .menu{
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Adaugă o tranziție de 0.3 secunde pentru scalare */
+  }
+  
+  .menu:hover {
+    transform: scale(1.2); /* Scalarea textului la hover */
+  }
+
+
+
+  .beginner-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .level-text {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 130px;
+    font-size: 44px;
+    margin-left: 10px;
+    color: #ffffff; /* sau orice altă culoare dorită */
+  }
+  
+  .line {
+    border: 1px solid #333; /* sau orice altă culoare dorită */
+    width: 86%;
+    margin-right: 106px;
+    margin-inline-start: 200px;
+    margin-top: -64px;
+  }
+
+  .line-interm {
+    border: 1px solid #333; /* sau orice altă culoare dorită */
+    width: 86%;
+    margin-right: 106px;
+    margin-inline-start: 240px;
+    margin-top: -64px;
+  }
+
+  .line-intens {
+    border: 1px solid #333; /* sau orice altă culoare dorită */
+    width: 86%;
+    margin-right: 106px;
+    margin-inline-start: 174px;
+    margin-top: -64px;
+  }
+
+  .line-yoga {
+    border: 1px solid #333; /* sau orice altă culoare dorită */
+    width: 86%;
+    margin-right: 106px;
+    margin-inline-start: 106px;
+    margin-top: -64px;
+  }
+
+  .line-flex {
+    border: 1px solid #333; /* sau orice altă culoare dorită */
+    width: 86%;
+    margin-right: 106px;
+    margin-inline-start: 223px;
+    margin-top: -64px;
+  }
+
+ 
+
+  
+  .subtitle {
+    
+    font-size: 18px;
+    color: #fff; /* sau orice altă culoare dorită pentru text */
+    margin-top: 140px;
+    margin-left: 45px;
+    margin-bottom: -50px;
+  }
+
+ /* ... Stilurile existente ... */
+
+.videos-section {
+  margin-top: 70px;
+}
+
+.video-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px; /* Adaugă spațiu între grupurile de videoclipuri */
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.video-container {
+  width: 46%;
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
