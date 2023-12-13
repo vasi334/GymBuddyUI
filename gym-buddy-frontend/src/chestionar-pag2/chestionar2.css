@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('poza-fundal-gymbudyy.jpg') center/cover no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 640px;
+    height: 640px;
+    border: 2px solid #fff;
+    background-color: #d9d9d9;
+    padding: 20px;
+    position: absolute;
+    top: 50%; /* Plasează patratul la jumătatea înălțimii paginii */
+    left: 50%; /* Plasează patratul la jumătatea lățimii paginii */
+    transform: translate(-50%, -50%); /* Ajustează poziția în funcție de dimensiunile elementului */
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+
+#text-container {
+    width: 507px;
+    height: 73px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    
+}
+
+
+
+.split-button {
+    display: 10px;
+    margin-top: 18px;
+    margin-left: 50px;
+    margin-right: 40px;
+    
+}
+
+.split-button button {
+    width: 40%; /* Redu lățimea butoanelor la 45% */
+    height: 40px;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000; /* Culoarea textului negru */
+}
+
+.left-half {
+    
+    background-color: hsl(0, 0%, 100%); /* culoare pentru jumătatea din stânga */
+    color: #fff;
+    border-top-left-radius: 20px; /* Adaugă colțuri rotunde în partea stângă sus */
+    border-bottom-left-radius: 20px;
+}
+
+.right-half {
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%); /* culoare pentru jumătatea din dreapta */
+    color: #fff;
+    border-top-right-radius: 20px; /* Adaugă colțuri rotunde în partea stângă sus */
+    border-bottom-right-radius: 20px;
+}
+
+.image-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+
+
+/* Adaugă stiluri pentru imaginea din buton */
+.button-image {
+    width: 50px; /* Ajustează lățimea imaginii în funcție de nevoie */
+    height: auto;
+}
+
+
+
+
+input{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #d9d9d9;
+    font-size: 180%;
+    margin: 2%;
+    margin-top: 6%;
+    width: 80%; /* Adjust the width as needed */
+
+}
+
+input::placeholder {
+    font-size: 60%;
+}
