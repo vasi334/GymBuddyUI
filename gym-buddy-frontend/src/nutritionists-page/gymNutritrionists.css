@@ -1,0 +1,70 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-nutritionists{
+  display: flex;
+  flex-wrap: wrap; /* Acesta permite ca elementele să se miște pe o nouă linie când spațiul nu este suficient */
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .nutritionist-box{
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-right: 20px;
+  margin-bottom: 30px;
+  height: 375px;
+  width: 340px;
+ }
+
+ .nutritionist-image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+ }
+
+ .nutritionist-image{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 200px;
+  width: auto;
+ }
+
+ .nutritionist-name{
+  text-align: center;
+ }
+
+ .informations-gym-contact-review{
+  padding-left: 10px;
+ }
+
+ .email{
+  color: black;
+ }
+
+ .site-button{
+  cursor: pointer;
+  background-color: #9e9c9c;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 4px;
+ }
+
+ .site-button:hover{
+  background-color: black;
+  color: white;
+ }
+
+ 
