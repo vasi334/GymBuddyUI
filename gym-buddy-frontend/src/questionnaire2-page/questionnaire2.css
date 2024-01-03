@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('poza-fundal-gymbudyy.jpg') center/cover no-repeat;
+    background: url('../utils/bg-image.jpg') center/cover no-repeat;
     font-family: Arial, sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
 .logo {
     margin-top: 20px;
     margin-left: 20px;
-    width: 100px; 
+    width: 200px; 
     height: auto;
     margin-bottom: 20px;
     
@@ -94,8 +94,7 @@ body {
     border: none;
     background: none;
     cursor: pointer;
-    margin-left: 500px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 
@@ -106,6 +105,13 @@ body {
     height: auto;
 }
 
+#previous{
+    margin-right: 200px;
+}
+
+#next{
+    margin-left: 200px;
+}
 
 
 
@@ -122,4 +128,16 @@ input{
 
 input::placeholder {
     font-size: 60%;
+}
+
+.left-half:hover,
+.right-half:hover {
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+}
+
+.left-half.clicked,
+.right-half.clicked {
+    background-color: black;
+    color: hsl(0, 0%, 100%);
 }

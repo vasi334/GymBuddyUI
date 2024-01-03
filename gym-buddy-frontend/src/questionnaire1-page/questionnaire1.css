@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('poza-fundal-gymbudyy.jpg') center/cover no-repeat;
+    background: url('../utils/bg-image.jpg') center/cover no-repeat;
     font-family: Arial, sans-serif;
 }
 
@@ -102,12 +102,22 @@ body {
     background: none;
     cursor: pointer;
     padding: 0;
-    margin-left: 500px;
-    margin-top: 45px;
+    margin-left: 460px;
+    margin-top: 30px;
 }
 
 /* Adaugă stiluri pentru imaginea din buton */
 .button-image {
     width: 50px; /* Ajustează lățimea imaginii în funcție de nevoie */
     height: auto;
+}
+
+.button:hover{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+}
+
+.button.clicked{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
 }
