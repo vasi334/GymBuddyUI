@@ -1,0 +1,91 @@
+html, body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.window-container {
+    min-height: 100vh;;
+    position: relative;
+    overflow: hidden;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#logo {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    max-width: 200px; 
+}
+
+#login-container{
+    position: absolute;
+    width: 50%;
+    height: 75%;
+    background-color: #d9d9d9 ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 0.8%;
+}
+
+h3{
+    font-size: 230%;
+}
+
+i{
+    font-size: 200%;
+    padding: 2%
+}
+
+#email-form, #psw-form {
+    margin-bottom: 10px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #d9d9d9;
+    font-size: 180%;
+    margin: 2%;
+}
+
+input::placeholder {
+    font-size: 60%;
+}
+
+#email-form, #psw-form{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.button {
+    transition-duration: 0.4s;
+    background-color: #b4b4b4; 
+    color: #000000;
+    padding: 1% 6%;
+    font-size: 180%;
+    border-radius: 8px;
+    border: #b4b4b4;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.button:hover {
+    background-color: #000000; 
+    color: #ffffff;
+
+  }
