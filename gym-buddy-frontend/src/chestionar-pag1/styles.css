@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('poza-fundal-gymbudyy.jpg') center/cover no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    width: 640px;
+    height: 640px;
+    border: 2px solid #fff;
+    background-color: #d9d9d9;
+    padding: 20px;
+    position: absolute;
+    top: 50%; /* Plasează patratul la jumătatea înălțimii paginii */
+    left: 50%; /* Plasează patratul la jumătatea lățimii paginii */
+    transform: translate(-50%, -50%); /* Ajustează poziția în funcție de dimensiunile elementului */
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    
+}
+
+.logo{
+    width: 200px;
+    padding-left: 20px;
+    margin-top: 33px;
+    margin-left: 8px;
+    }
+
+.button-container {
+    
+    display: flex;
+    flex-direction: column; /* Așează butoanele vertical (una sub alta) */
+    gap: 0px;
+    margin-top: 5px;
+
+    
+}
+
+
+
+.button.first-button {
+
+    margin-top: 10px; /* Ajustează distanța dintre prima butonă și marginea de sus a containerului */
+}
+
+.button {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content:flex-start; /* Add space between text and icon */
+    width: 100%;
+    padding: 20px;
+    font-size: 21px;
+    margin-top: 50px;
+    font-family: "Courier", serif;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+}
+
+.button i {
+    margin-right: 84px; /* Adjust the margin to increase spacing between icon and text */
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.button.lose-weight i {
+    font-size: 32px; /* Schimbă dimensiunea iconiței pentru butonul "I want to lose weight" */
+}
+
+.button.increase-muscle i {
+    font-size: 26px; /* Schimbă dimensiunea iconiței pentru butonul "I want to increase muscle mass" */
+}
+
+.button.keep-in-shape i {
+    font-size: 34px; /* Schimbă dimensiunea iconiței pentru butonul "I want to keep in shape" */
+}
+
+
+#text-container {
+    width: 507px;
+    height: 73px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 39px;
+    
+}
+
+.image-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 500px;
+    margin-top: 45px;
+}
+
+/* Adaugă stiluri pentru imaginea din buton */
+.button-image {
+    width: 50px; /* Ajustează lățimea imaginii în funcție de nevoie */
+    height: auto;
+}
