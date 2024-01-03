@@ -51,5 +51,6 @@ goToTrainers();
 
 function setPointer(){
     logo.style.cursor = "pointer";
+    
 }
 setPointer();   
