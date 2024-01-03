@@ -2,6 +2,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .all-nutritionists{
   display: flex;
   flex-wrap: wrap; /* Acesta permite ca elementele să se miște pe o nouă linie când spațiul nu este suficient */
@@ -11,6 +12,55 @@ body{
   justify-content: center;
   align-items: center;
  }
+
+ .level-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 130px;
+  font-size: 44px;
+  margin-left: 5px;
+  color: #ffffff; /* sau orice altă culoare dorită */
+  margin-left: 10px;
+}
+
+.line {
+  border: 1px solid #333; /* sau orice altă culoare dorită */
+  width: 86%;
+  margin-right: 106px;
+  margin-inline-start: 226px;
+  margin-top: -64px;
+}
+
+.line2 {
+  border: 1px solid #333; /* sau orice altă culoare dorită */
+  width: 86%;
+  margin-right: 106px;
+  margin-inline-start: 445px;
+  margin-top: -64px;
+}
+
+.line3 {
+  border: 1px solid #333; /* sau orice altă culoare dorită */
+  width: 86%;
+  margin-right: 106px;
+  margin-inline-start: 690px;
+  margin-top: -64px;
+}
+.line-interm {
+  border: 1px solid #333; /* sau orice altă culoare dorită */
+  width: 86%;
+  margin-right: 106px;
+  margin-inline-start: 240px;
+  margin-top: -64px;
+}
+
+.line-intens {
+  border: 1px solid #333; /* sau orice altă culoare dorită */
+  width: 86%;
+  margin-right: 106px;
+  margin-inline-start: 174px;
+  margin-top: -64px;
+}
+
 
  .nutritionist-box{
   background-color: #d9d9d9;
