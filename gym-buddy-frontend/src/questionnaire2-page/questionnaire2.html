@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="chestionar2.css">
-    <title>Pagina cu imagine de fundal</title>
+    <link rel="stylesheet" href="questionnaire2.css">
+    <link rel="icon" href="../utils/favicon.png">
+    <title>Questionnaire</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<img src="logo.png" alt="Logo" class="logo">
+<img src="../utils/logo.png" alt="Logo" class="logo" id="logo">
 <body>
     <div class="container">
         <div id="text-container">Your informations</div>
@@ -30,11 +31,14 @@
                 <input type="text" id="city-input" name="City" placeholder="City">
             </form>
         
-        
         <button class="image-button">
-            <img src="next.png" alt="Imaginea" class="button-image">
+            <img src="../utils/previous.png" alt="Imaginea" class="button-image" id="previous">
+        </button>
+
+        <button class="image-button">
+            <img src="../utils/next.png" alt="Imaginea" class="button-image" id="next">
         </button>
     </div>
-    <script src="script.js"></script>
+    <script src="questionnaire2.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   overflow-y: hidden;
-  background-image: url('images/foto.jpg'); /*fotografia de fundal*/
+  background-image: url('../utils/background-image.jpg'); /*fotografia de fundal*/
   background-size: cover;
   background-position: center;
 }
