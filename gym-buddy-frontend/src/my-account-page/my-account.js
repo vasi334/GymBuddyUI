@@ -1,10 +1,10 @@
 const home = document.getElementById("home");
-const account = document.getElementById("account");
 const logo = document.getElementById("logo");
 const workouts = document.getElementById("workouts");
 const gyms = document.getElementById("gyms");
 const trainers = document.getElementById("trainers");
 const nutritionists = document.getElementById("nutritionists");
+const button = document.getElementById("button");
 
 
 function goToHome() {
@@ -13,13 +13,6 @@ function goToHome() {
     })
 };
 goToHome();
-
-function goToAccount() {
-    account.addEventListener("click", () => {
-        window.location.href = "../my-account-page/my-account.html"
-    })
-};
-goToAccount();
 
 function goToLogo() {
     logo.addEventListener("click", () => {
@@ -56,9 +49,14 @@ function goToTrainers() {
 };
 goToTrainers();
 
+function goToNext() {
+    button.addEventListener("click", () => {
+        window.location.href = "../home-page/home.html"
+    })
+};
+goToNext();
 
 function setPointer(){
     logo.style.cursor = "pointer";
-    
 }
 setPointer();   

@@ -1,4 +1,5 @@
 const home = document.getElementById("home");
+const account = document.getElementById("account");
 const logo = document.getElementById("logo");
 const workouts = document.getElementById("workouts");
 const gyms = document.getElementById("gyms");
@@ -14,6 +15,13 @@ function goToHome() {
     })
 };
 goToHome();
+
+function goToAccount() {
+    account.addEventListener("click", () => {
+        window.location.href = "../my-account-page/my-account.html"
+    })
+};
+goToAccount();
 
 function goToLogo() {
     logo.addEventListener("click", () => {
