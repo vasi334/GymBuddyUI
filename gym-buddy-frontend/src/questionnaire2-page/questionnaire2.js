@@ -18,7 +18,7 @@ goToPrevious();
 
 function goToNext(){
     next.addEventListener("click", () => {
-        window.location.href = "../home-page/home.html"
+        window.location.href = "../my-account-page/my-account.html"
     })
 };
 goToNext();

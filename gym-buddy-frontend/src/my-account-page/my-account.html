@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My account</title>
+    <link rel="stylesheet" href="my-account.css">
+    <link rel="icon" href="../utils/favicon.png">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img src="../utils/logo.png" class="logo-GymBuddy" id="logo">
+        <ul>
+          <li><a id="home"><span class="menu">Home</span></a></li>
+          <li><a id="workouts"><span class="menu1">Workouts</span></a></li>
+          <li><a id="gyms"><span class="menu">Gyms</span></a></li>
+          <li><a id="trainers"><span class="menu">Gyms Trainers</span></a></li>
+          <li><a id="nutritionists"><span class="menu">Nutritionists</span></a></li>
+        </ul>
+      </nav>
+
+
+
+      <div class="info">
+        <div id="text-container">My profile</div>
+
+        <div id="container2">
+          <div id="column1">
+            <form>
+              <label class="labels">Name</label>
+              <input type="text" id="name-input" name="Name" placeholder="Rebeca">
+            </form>
+
+            <form>
+              <label class="labels">Email</label>
+              <input type="text" id="email-input" name="Email" placeholder="gogrebeca12@gmail.com">
+            </form>
+
+            <form>
+              <label class="labels">Password</label>
+              <input type="password" id="psw-input" name="Password">
+            </form>
+
+            <form>
+              <label class="labels">Reconfirm pw</label>
+              <input type="password" id="re-psw-input" name="Confirm-Password">
+            </form>
+
+            <form>
+              <label class="labels">Your goal</label>
+              <select id="options" name="options">
+                <option value="Lose weight">Lose weight</option>
+                <option value="Increase muscle mass" selected>Increase muscle mass2</option>
+                <option value="Keep in shape">Keep in shape</option>
+              </select>
+            </form>
+          </div>
+
+          <div id="column2">
+
+            <form>
+              <label class="labels">Date of birth</label>
+              <input type="date" id="date-input" name="Date" placeholder="">
+            </form>
+
+            <form>
+              <label class="labels">Height</label>
+              <input type="text" id="height-input" name="Height" placeholder="171">
+            </form>
+
+            <form>
+              <label class="labels">Weight</label>
+              <input type="text" id="weight-input" name="Weight" placeholder="60">
+            </form>
+
+            <form>
+              <label class="labels">City</label>
+              <input type="text" id="city-input" name="City" placeholder="Cluj">
+            </form>
+
+            <button type="submit" id="button" name="Save modifications" value="Save modifications">Save modifications</button>
+          </div>
+        
+        </div>
+            
+      </div>
+
+    </div>
+
+    <script src="./my-account.js"></script>
+  </body>
+</html>
