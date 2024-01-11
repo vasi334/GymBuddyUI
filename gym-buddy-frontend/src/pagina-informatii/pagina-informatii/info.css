@@ -1,0 +1,180 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 60px;
+    min-height: 100vh;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo{
+  width: 200px;
+  padding-left: 20px;
+  margin-top: 5px;
+  }
+  
+  nav ul{
+    list-style: none;
+    text-align: right;
+    cursor: pointer;
+  }
+  
+  nav li{
+  display: inline-block;
+  margin-right: 50px;
+  }
+  
+  nav a {
+    color:white ;
+    text-decoration: none;
+  }
+  
+  .menu{
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Adaugă o tranziție de 0.3 secunde pentru scalare */
+  }
+  
+  .menu:hover {
+    transform: scale(1.2); /* Scalarea textului la hover */
+  }
+
+
+  .container {
+    position: relative;
+}
+
+.info-section {
+    text-align: center;
+}
+
+.image-box {
+    display: inline-block;
+
+    margin-top: 90px;
+    width: 910px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: left;
+    
+    border-radius: 8px;
+}
+
+.image-box img {
+    border-radius: 8px;
+    max-width: 40%;
+    height: auto;
+}
+
+.button {
+    transition-duration: 0.4s;
+    background-color: #b4b4b4; 
+    color: #000000;
+    padding: 1% 6%;
+    font-size: 180%;
+    border-radius: 5px;
+    border: #b4b4b4;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-inline-start: 400px;
+    margin-top: -900px;
+}
+  .button:hover {
+    background-color: #000000; 
+    color: #ffffff;
+  }
+
+  .paragraf {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 400px;
+    font-size: 16px;
+    color: #000000;
+    margin-block-start: -130px;
+    line-height: 22px;
+    color: #000;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.info-box{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 300px;
+    width: 900px;
+    margin-top: -240px;
+}
+
+.button-box{
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 380px;
+}
+
+
+
+.modal-container{
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal-container.show{
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px 50px;
+  width: 600px;
+  max-width: 100%;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.modal h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  
+ #close1, #close2, #close3, #close4 {
+  transition-duration: 0.4s;
+  background-color: #b4b4b4; 
+  color: #000000;
+  padding: 8px 16px; /* Modificăm dimensiunea padding-ului */
+  font-size: 16px; /* Micșorăm dimensiunea font-ului */
+  border-radius: 5px;
+  border: #b4b4b4;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto; /* Plasăm butoanele în centrul paginii */
+  display: block; /* Asigurăm că butoanele ocupă întreaga lățime a containerului */
+}
+
+#close1:hover, #close2:hover, #close3:hover, #close4:hover {
+  background-color: #000000; 
+  color: #ffffff;
+}
